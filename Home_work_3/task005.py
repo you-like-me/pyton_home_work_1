@@ -19,6 +19,6 @@ list_megafib = [1, 0]
 for i in range(7):
     list_megafib.insert(0, list_megafib[1] - list_megafib[0])
 for i in range(8):
-    list_megafib.append(list_megafib[-2] - list_megafib[-1])
+    list_megafib.append(list_megafib[-2] + list_megafib[-1])
 print(list_megafib)
 
