@@ -13,4 +13,4 @@ print(n)
     
 for i in range(n):
     result.append(list[i] * list[-i-1])
-    print(result)
+print(result, end= ', ')
